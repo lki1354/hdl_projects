@@ -1,7 +1,7 @@
 /*!
  *  \file mux_clock.sv
  *  \brief mux for the right view BCD signals on the view
- *  \author Lukas Kiechle
+ *  \author kil
  *  \date 2016-12-16 create date
  *  $Revision: 0.9$
 */
@@ -15,11 +15,11 @@ module mux_clock(
 	input	logic		update_M2,
 	input	logic		update_S1,
 	input	logic		update_S2,
-  input logic blink,
+  input logic   blink,
 	input	logic [3:0]	bcd_H1,
 	input	logic [3:0]	bcd_H2,
 
-	input 	logic [3:0]	bcd_M1,
+	input logic [3:0]	bcd_M1,
 	input	logic [3:0]	bcd_M2,
 
 	input	logic [3:0]	bcd_S1,
