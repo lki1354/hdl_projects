@@ -5,7 +5,7 @@ The clock was testet with a development board "Cyclone V GX Starter Kit" from te
 ## introduction
 
 ## operating instructions
-* how to use:
+how to use:
 1. Switch 0 has to be turn up to enable the clock counter.
 2. Press key 0 to switch between hour:minute to minute:second and back.
 3. Press key 0 longer than 0.5 seconds to switch to configuration mode. Configuration number blinks.
