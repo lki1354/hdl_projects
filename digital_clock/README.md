@@ -3,6 +3,11 @@ A digital clock implementation on an FPGA device.
 The clock was testet with a development board "Cyclone V GX Starter Kit" from terasic. 
 
 ## introduction
+The implementation use the 50MHz clock from the eval board. 
+The module clock_divider creates a 1Hz clock for the clock counter.
+With 6 BCD counter the module bcd_6digit is a clock counter realised.
+For configuration and interact with the clock 3 modules are used. Debounce, key_long_short and clock_sm modules are used for this.
+The sevenseg_decoder module converts the binary value to the right number for the seven-segment display.
 
 ## operating instructions
 *  how to use:
