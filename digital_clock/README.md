@@ -37,6 +37,6 @@ The sevenseg_decoder module converts the binary value to the right number for th
 * a short preparation with needs, requirements and a overview of the planned modules (Top Level) is very helpful
 * use small modules which are easier to test and verify the functionality
 
-## preparatons
+## preparations
 A few preparations are always very important. So for this little project the notes and draws are documented in the preparation_draft_digital_clock.pdf.
 
